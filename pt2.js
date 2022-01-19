@@ -1,3 +1,5 @@
+// teste para aula 2
+
 console.clear();
 const pc = require('prompt-sync')();
 
