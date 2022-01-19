@@ -18,3 +18,6 @@ if (p1 == "sim"){
     console.log("Não tem problema, temos chances de derrotar os goblins de outras maneiras");
     
 }
+
+
+// teste aula 2 novo
