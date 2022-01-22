@@ -20,4 +20,3 @@ if (p1 == "sim"){
 }
 
 
-// teste aula 2 novo
