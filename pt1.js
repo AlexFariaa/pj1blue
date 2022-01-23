@@ -119,8 +119,9 @@ console.clear()
 console.log(`Chegando la, você ve a nave mãe dos goblins com seu comandante a bordo!
 Eles descem e começam o ataque, lembre-se que você tem uma quantidade de vida,
 você chegou até aqui com ${vida}.`)
-p3 = pc(`Guerrear com eles agora fará você perder pelo menos 30 de vida.
-Deseja fazer isso?`);
+console.log()
+console.log("Guerrear com eles agora fará você perder pelo menos 30 de vida.")
+p3 = pc(`Deseja fazer isso?`);
 console.log();
 
 if (p3 == 'sim') // vou guerrear
@@ -141,8 +142,8 @@ if (p3 == 'sim') // vou guerrear
         }
     }
     console.log()
-    console.log(`Esse primeiro avanço as tropas contra os goblins foi dificil, você teve de dar seu sangue e usar todas as suas forças para
-    tentar salvar essa nação!`);
+    console.log(`Esse primeiro avanço as tropas contra os goblins foi dificil, você 
+teve de dar seu sangue e usar todas as suas forças para tentar salvar essa nação!`);
     console.log()
     console.log("Seus pontos de vida e glória foram atualizados...")
     var r3 = pc("Tecle enter para ver os resultados")
@@ -178,6 +179,19 @@ cada segundo importa.
 
 Você e sua equipe avançam pelo flanco direito enquanto Jack tenta alcançar a nave mae pelo flanco esquerdo...`)
 }
+
+p4 = pc("Você conseguiu limpar a área na qual Jack Hannaford precisava para alcançar a nave mãe? ");
+if (p4 == 'sim')
+{
+    suc = suc + 1
+}
+console.clear
+p5 = pc("Você deu o impulso necessario e usou toda a sua gloria para desferir um ataque em massa contra os goblins que estavam descendo da nave mae? ")
+if (p5 == 'sim')
+{
+    suc = suc + 1
+}
+console.clear
 var r6 = pc("Aperte ENTER para ver como foi o final dessa batalha.")
 console.clear();
 
